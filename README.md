@@ -1,0 +1,5 @@
+This is a project focused on development of a rudimentary Scrabble and Words With Friends (WWF) word finder.
+
+The inital version is simply a python script, scrabble_cheat_1.py, that accepts a string of letters as the argument which may include up to 2 "?"s used to represent blanks. The script uses a comprehensive list (likely outdated) of accepted WWF words found in the file enable1.txt and iterates through each word to find and score valid WWF words for the rack of letters entered into the argument. 
+
+Later versions will implement a more updated word list and perhaps interact with a database to look up word definitions. There are discrepancies between Scrabble and WWF dictionaries and letter scorings, but simple changes can be made to create the Scrabble word finder. Optimization of the To develop a full-on Scrabble/WWF "cheater" program capable of finding the optimal play during a given game, further consideration of the board layouts, letter frequencies, and multi-word plays is required.        
